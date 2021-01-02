@@ -41,10 +41,6 @@ main {
     margin-bottom: 20px;
 }
 
-section,
-		header {
-}
-
 body {
     margin: 0;
     box-sizing: border-box;
@@ -58,13 +54,6 @@ p.subline {
 
 section.intro {
     width: 100%;
-}
-
-header {
-}
-
-section.intro {
-    display: flex;
     width: 100%;
 }
 
