@@ -1,0 +1,73 @@
+* {
+    color: #111;
+    margin-top: 0px;
+    width: 100%;
+}
+
+body {
+    font-size: 18px;
+    padding: 5%;
+    background-color: #efefef;
+}
+
+.logo {
+    background: url(../img/producer-network-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin-left: -4px;
+}
+
+article {
+    box-sizing: border-box;
+    border-top: 1px solid #606060;
+    max-width: 300px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    box-sizing: border-box;
+}
+
+.cover {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+section,
+		header {
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p.subline {
+    margin-top: -23px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+section.intro {
+    width: 100%;
+}
+
+header {
+}
+
+section.intro {
+    display: flex;
+    width: 100%;
+}
+
+header {
+    max-width: 600px;
+}
